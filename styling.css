@@ -1,0 +1,133 @@
+/* base */
+/*Font ideas from http://3.7designs.co/blog/2008/06/10-examples-of-beautiful-css-typography-and-how-they-did-it/*/
+/*main{
+  width:960px;
+}
+*/h1{
+  font-size: 35px;
+  font-family: Arial, serif;
+  margin:10px;
+  color: blue;
+}
+h2{
+  color: #e88e5d;
+  font-style: bold;
+  font-size: 30px;
+  font-family: Georgia,serif;
+  text-align: center;
+  margin-top: 3px;
+}
+
+header{
+  /*width: 960px;*/
+  align:center;
+  /*background: linear-gradient(to left, rgb(0,51,204) , rgb(102,102,255));*/
+  height: 50px;
+  -webkit-transition-property: font-size 10px;
+}
+.navHead{
+  margin: 25px 0px;
+}
+a{
+  font-size: 20px;
+  border: 10px;
+  padding: 3px 10px 5px 10px;
+  text-decoration: none;
+  /*color: white;*/
+}
+a:hover{
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+}
+a:visited{
+  color: black;
+}
+
+body{
+  font-family: Gill Sans, Verdana;
+  background-image: url(./pantBg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+p{
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: -.5em; color: #666;
+  margin: -.5em 50px;
+
+}
+time{
+  background-color: gray;
+  color:white;
+  font-size: 10px;
+}
+
+/* main */
+
+.comments{
+  text-align: left;
+}
+article{
+  height: 300px;
+}
+
+input{
+  margin: 10px 0 0;
+}
+section:nth-child(even){
+  background-color: rgba(10,223,216,0.5);
+  /*background-color: rgba(152,148,148,0.5);*/
+}
+section:nth-child(odd){
+  background-color: rgba(0,51,204,0.5);
+}
+div{
+  background-color: transparent;
+}
+.cameraMap{
+  background-color: transparent;
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+iframe{
+  display:block;
+  width: 420px;
+  height: 315px;
+  margin: 0 auto;
+  background-color: #777;
+}
+aside{
+  float: right;
+  border: 1px gray;
+}
+
+/* Footer */
+#bottom{
+  color: black;
+  text-align: right;
+}
+footer{
+  padding: 25px;
+}
+
+/* Form */
+/*http://jsbin.com/ketad/2/embed?html,css,output*/
+
+label {
+  display: block;
+}
+
+input:not([type=radio]), textarea {
+  width: 100%;
+}
+
+[name=card-selection] label {
+  display: inline-block;
+}
